@@ -13,3 +13,6 @@ int main (){
     if (jumlahNama <=0){
       cout << "Jumlah nama harus lebih dari 0!-" <<endl;
       return 1;
+
+    // Membersihkan karakter newline sisa dari cin >> Jumlahnama
+    cin.ignore();
