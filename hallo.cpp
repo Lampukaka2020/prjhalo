@@ -19,3 +19,10 @@ int main (){
 
     // Inisialisasi array dinamis dengan jumlah nama
     string* nama = new string [jumlahNama];
+
+  // Menampilkan data dari array
+     cout <<"\nDaftar Nama yang Dimasukkan:" << endl;
+     for (int i = 0; i < jumlahNama; i++){
+      cout << "Nama ke-" << i + 1 << ":";
+      getline(cin, nama[i]);
+     }
