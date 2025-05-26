@@ -26,3 +26,9 @@ int main (){
       cout << "Nama ke-" << i + 1 << ":";
       getline(cin, nama[i]);
      }
+
+     // Membersihkan memori yang dialokasikan
+     delete[] nama;
+
+     return 0;
+}
