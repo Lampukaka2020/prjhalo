@@ -16,3 +16,6 @@ int main (){
 
     // Membersihkan karakter newline sisa dari cin >> Jumlahnama
     cin.ignore();
+
+    // Inisialisasi array dinamis dengan jumlah nama
+    string* nama = new string [jumlahNama];
